@@ -12,21 +12,21 @@
 
 位运算
 
-![含 义  按 位 与  按 位 取 反  0011 = > 1 100  按 位 异 或 （ 相 同 为 零 不 同 为 一 ）  运 算 符  0011  1011  0011  1011  0011  1011  示 例  = > 1011  = > 0011  = > 1 0 ](.\image\clip_image003.png)
+![含 义  按 位 与  按 位 取 反  0011 = > 1 100  按 位 异 或 （ 相 同 为 零 不 同 为 一 ）  运 算 符  0011  1011  0011  1011  0011  1011  示 例  = > 1011  = > 0011  = > 1 0 ](https://github.com/chengege/algorithm010/tree/master/Week08/image/clip_image003.png)
 
  
 
 常用操作
 
-![x  x A Is=-x Is = —O  Is  x Ax = 0  c = a Ab  // associative ](.\image\clip_image004.png)
+![x  x A Is=-x Is = —O  Is  x Ax = 0  c = a Ab  // associative ](https://github.com/chengege/algorithm010/tree/master/Week08/image/clip_image004.png)
 
  
 
-![1 · 将 × 最 右 边 的 n 位 清 零 ： × & 00 < < n)  2 · 获 取 × 的 第 n 位 值 （ 0 或 者 1 ） ： （ × > > n) & 1  3 · 获 取 × 的 第 n 位 的 幂 值 ： × & 0 < < n)  4 · 仅 将 第 n 亻 立 置 为 1 ： × 这 1 < < n ）  5 · 仅 将 第 n 亻 立 置 为 0 ： × & （ 1 < < n ） ）  6 ， 将 × 最 高 位 至 第 n 位 （ 含 ） 清 零 ： x & （ 0 < < n) 一 1 ） ](.\image\clip_image005.png)
+![1 · 将 × 最 右 边 的 n 位 清 零 ： × & 00 < < n)  2 · 获 取 × 的 第 n 位 值 （ 0 或 者 1 ） ： （ × > > n) & 1  3 · 获 取 × 的 第 n 位 的 幂 值 ： × & 0 < < n)  4 · 仅 将 第 n 亻 立 置 为 1 ： × 这 1 < < n ）  5 · 仅 将 第 n 亻 立 置 为 0 ： × & （ 1 < < n ） ）  6 ， 将 × 最 高 位 至 第 n 位 （ 含 ） 清 零 ： x & （ 0 < < n) 一 1 ） ](https://github.com/chengege/algorithm010/tree/master/Week08/image/clip_image005.png)
 
 实战中常用:
 
-![· 判 断 奇 偶 :  x % 2 = = 1 一 > ( x & 1 ) = = 1  x % 2 = = 0 一 > ( x & 1 ) = = 0  · x > > 1 —>X / 2  即 : x = x / 2 ;  mid=(left +right)/2; 一 > mid=(left +right) > > 1 ;  · X = X & 1 ) 清 零 最 低 位 的 1  · X & Ⅸ = > 得 到 最 低 位 的 1 ](.\image\clip_image006.png)
+![· 判 断 奇 偶 :  x % 2 = = 1 一 > ( x & 1 ) = = 1  x % 2 = = 0 一 > ( x & 1 ) = = 0  · x > > 1 —>X / 2  即 : x = x / 2 ;  mid=(left +right)/2; 一 > mid=(left +right) > > 1 ;  · X = X & 1 ) 清 零 最 低 位 的 1  · X & Ⅸ = > 得 到 最 低 位 的 1 ](https://github.com/chengege/algorithm010/tree/master/Week08/image/clip_image006.png)
 
 # 第17课 布隆过滤器和LRU缓存
 
@@ -52,9 +52,9 @@
 
 实现：
 
-![o  ı  o  ı  ı  1  o  0  0  0  o  ı  o  I  0  o  ı  o ](.\image\clip_image007.png)
+![o  ı  o  ı  ı  1  o  0  0  0  o  ı  o  I  0  o  ı  o ](https://github.com/chengege/algorithm010/tree/master/Week08/image/clip_image007.png)
 
-![Bloom Filter  c  True positive  True negative  False positive ](.\image\clip_image008.png)
+![Bloom Filter  c  True positive  True negative  False positive ](https://github.com/chengege/algorithm010/tree/master/Week08/image/clip_image008.png)
 
 ### 代码模板
 
@@ -74,7 +74,7 @@ JAVA中的实现类：LinkedHashMap
 
 ### 实现
 
-hash table + double linkedList![0000*  0 ](.\image\clip_image009.png)
+hash table + double linkedList![0000*  0 ](https://github.com/chengege/algorithm010/tree/master/Week08/image/clip_image009.png)
 
 ### 代码模板
 
@@ -94,9 +94,9 @@ hash table + double linkedList![0000*  0 ](.\image\clip_image009.png)
 
 - ​	适用整型排序，一般需要额外内存空间
 
-![计算机生成了可选文字: 排序算法 冒泡排序 交换排序 快速排序 简单插入排序 插入排序 希尔排序 比较类排序 简单选择排序 选择排序 堆排序 二路归并排序 归并排序 多路归并排序 计数排序 桶排序 基数排序](.\image\clip_image010.png)
+![计算机生成了可选文字: 排序算法 冒泡排序 交换排序 快速排序 简单插入排序 插入排序 希尔排序 比较类排序 简单选择排序 选择排序 堆排序 二路归并排序 归并排序 多路归并排序 计数排序 桶排序 基数排序](https://github.com/chengege/algorithm010/tree/master/Week08/image/clip_image010.png)
 
-## 时间复杂度![计算机生成了可选文字: 排序方法 插入排序 希尔排序 选择排序 堆排序 冒泡排序 快速排序 归并排序 计数排序 桶排序 基数排序 时间复杂度（平均） 0佃2丿 0佃2丿 0佃/0g2用 0佃2丿 0伽/0g2 0伽/0g2 O(n+k丿 0佃+k丿 0佃閃 时间复杂度（最坏） 02丿 02丿 0佃2丿 0佃/四2门丿 0佃2丿 0伽2丿 0伽g2R1丿 0佃+k丿 02丿 0*k丿 时间复杂度（最好） 0佃丿 0佃丿 0佃2丿 0佃/og2F1丿 0佃丿 0伽g2用 0伽g2用 0佃+k丿 0佃丿 0佃*k丿 空间复杂度 00丿 0(1丿 0(1丿 0(1丿 0(1丿 0佃/0g2 0佃丿 0佃+k丿 0佃+k丿 0佃+k丿 稳定性 稳定 不稳定 不稳定 不稳定 稳定 不稳定 稳定 稳定 稳定 稳定](H:.\image\clip_image011.png)
+## 时间复杂度![计算机生成了可选文字: 排序方法 插入排序 希尔排序 选择排序 堆排序 冒泡排序 快速排序 归并排序 计数排序 桶排序 基数排序 时间复杂度（平均） 0佃2丿 0佃2丿 0佃/0g2用 0佃2丿 0伽/0g2 0伽/0g2 O(n+k丿 0佃+k丿 0佃閃 时间复杂度（最坏） 02丿 02丿 0佃2丿 0佃/四2门丿 0佃2丿 0伽2丿 0伽g2R1丿 0佃+k丿 02丿 0*k丿 时间复杂度（最好） 0佃丿 0佃丿 0佃2丿 0佃/og2F1丿 0佃丿 0伽g2用 0伽g2用 0佃+k丿 0佃丿 0佃*k丿 空间复杂度 00丿 0(1丿 0(1丿 0(1丿 0(1丿 0佃/0g2 0佃丿 0佃+k丿 0佃+k丿 0佃+k丿 稳定性 稳定 不稳定 不稳定 不稳定 稳定 不稳定 稳定 稳定 稳定 稳定](https://github.com/chengege/algorithm010/tree/master/Week08/image/clip_image011.png)
 
 ## 代码模板
 
