@@ -8,7 +8,7 @@
 
 移位
 
-![含 义  运 算 符  左 移  0011 = > 0110  右 移  0110 = > 0011 ](.\image\clip_image002.png)
+![含 义  运 算 符  左 移  0011 = > 0110  右 移  0110 = > 0011 ](https://github.com/chengege/algorithm010/blob/master/Week08/image/clip_image002.png)
 
 位运算
 
