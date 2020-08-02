@@ -2,7 +2,7 @@
 
 十进制转二进制
 
-![Remainder  5610  100111002 ](.\image\clip_image001.png)
+![Remainder  5610  100111002 ](https://github.com/chengege/algorithm010/blob/master/Week08/image/clip_image001.png)
 
  
 
